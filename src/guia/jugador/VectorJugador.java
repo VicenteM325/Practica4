@@ -1,7 +1,7 @@
 package guia.jugador;
 
 import javax.swing.JOptionPane;
-import vista.GUI.RegistroJugador;
+import ventana.form.RegistroJugador;
 
 public class VectorJugador {
 

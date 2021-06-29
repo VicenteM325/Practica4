@@ -14,7 +14,7 @@ public class Serpiente extends Casilla {
     //Agrega la imagen de serpiente en casilla    
     @Override
     public void getImage() {
-        image1 = new ImageIcon(getClass().getResource("/vista/images/serpiente.png"));
+        image1 = new ImageIcon(getClass().getResource("/ventana/images/serpiente.png"));
         this.setIcon(new ImageIcon(image1.getImage().getScaledInstance(this.getWidth(), this.getHeight(), Image.SCALE_SMOOTH)));
     }
 

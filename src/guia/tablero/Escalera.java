@@ -14,7 +14,7 @@ public class Escalera extends Casilla {
     //Imagen casilla __ Escalera
     @Override
     public void getImage() {
-        image2 = new ImageIcon(getClass().getResource("/vista/images/escalera.png"));
+        image2 = new ImageIcon(getClass().getResource("/ventana/images/escalera.png"));
         this.setIcon(new ImageIcon(image2.getImage().getScaledInstance(this.getWidth(), this.getHeight(), Image.SCALE_SMOOTH)));
     }
 
