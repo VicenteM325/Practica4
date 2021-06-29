@@ -4,8 +4,7 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 
 public class Escalera extends Casilla {
-//---
-
+    
     private ImageIcon image2;
 
     //Constructor de casilla __ Escalera   
