@@ -6,8 +6,7 @@ import guia.tablero.Casilla;
 import guia.tablero.Escalera;
 import guia.tablero.Serpiente;
 
-public class ControladorTablero {
-//---
+public class ManejoTablero {
 
     private int ejeX = 20;
     private int ejeY = 20;
@@ -17,7 +16,7 @@ public class ControladorTablero {
     private JButton[][] botones;
 
     // Manejo tablero
-    public ControladorTablero(int filas, int columnas, JPanel panel) {
+    public ManejoTablero(int filas, int columnas, JPanel panel) {
         generarTablero(filas, columnas, panel);
     }
 
