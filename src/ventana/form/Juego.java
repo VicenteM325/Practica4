@@ -14,7 +14,7 @@ public class Juego extends JDialog {
     private ManejoTablero controlTablero;
     private ImageIcon image, icon;
 
-    //--- Constructor Juego
+    //Constructor
     public Juego(Menu parent, boolean modal, boolean inicio, int filas, int columnas) {
         super(parent, modal);
         initComponents();
@@ -29,12 +29,12 @@ public class Juego extends JDialog {
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
 
-    //--- Agregar Tablero
+    //Agrega Tablero
     public void colocarTablero(int filas, int colummas) {
         this.controlTablero = new ManejoTablero(filas, colummas, panelJ);
     }
 
-    //--- Agregar Imágenes
+    //Agrega Imágenes
     public void colocarImagen() {
         image = new ImageIcon(getClass().getResource("/ventana/images/dados.png"));
         icon = new ImageIcon(image.getImage().getScaledInstance(this.dadoLbl.getWidth(), this.dadoLbl.getHeight(), Image.SCALE_SMOOTH));
